@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CeloBank</title>
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- css -->
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/grid.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- container -->
+        <div class="container">
+            <!-- header -->
+            <header class="header">
+                <div class="header__inner">
+                    <!-- header logo -->
+                    <div class="header__logo">
+                        <img src="./icon/logo.svg" alt="" class="logo" />
+                        <span class="header__banner">CeloBank</span>
+                    </div>
+                    <!-- header navbar -->
+                    <ul class="header__nav">
+                        <li class="header__item">
+                            <a href="#!" class="header__item-link">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__item-link">Products</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__item-link">Features</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__item-link">Blog</a>
+                        </li>
+                    </ul>
+                    <!-- header active -->
+                    <div class="header__active">
+                        <a
+                            href="#!"
+                            class="btn"
+                            style="--min-width: 113px; --line-height: 54px"
+                            >Log in
+                        </a>
+                        <a
+                            href="#!"
+                            class="btn"
+                            style="
+                                --min-width: 113px;
+                                --line-height: 54px;
+                                background-color: var(--heading-color);
+                            "
+                        >
+                            Sign up
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <!-- end header -->
+
+            <main>
+                <!-- hero -->
+                <section class="hero">
+                    <div class="row hero__inner">
+                        <!-- col content -->
+                        <div class="col-lg-6">
+                            <p class="section__sub-heading">
+                                Digital Smart Wallet
+                            </p>
+                            <h1 class="hero__heading">
+                                Digital
+                                <span style="color: var(--primary-color)"
+                                    >Payment</span
+                                >
+                                For Everyone.
+                            </h1>
+                            <p class="section__desc hero__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <div class="hero__input">
+                                <input
+                                    type="text"
+                                    placeholder=" "
+                                    class="input"
+                                />
+                                <label for="email" class="input-label"
+                                    >Your email address</label
+                                >
+                                <a href="#!" class="btn input__btn">
+                                    Get Started
+                                </a>
+                            </div>
+                            <p class="hero__note">
+                                *We’ll respect the inbox and never share your
+                                email.
+                            </p>
+                        </div>
+                        <!-- col media -->
+                        <div class="col-lg-5 offset-lg-1">
+                            <div class="hero__phone">
+                                <!-- card -->
+                                <img
+                                    src="./image/Mobile.png"
+                                    alt=""
+                                    class="phone-img"
+                                />
+                                <div class="phone__card">
+                                    <p class="phone__card-balance">
+                                        Main Balance
+                                    </p>
+                                    <h3 class="phone__card-excess">
+                                        $78,355.17
+                                    </h3>
+                                    <div class="phone__card-informaiton">
+                                        <div class="card__valid">
+                                            <p class="valid__text">
+                                                VALID THUR
+                                            </p>
+                                            <h3 class="valid__time">08/22</h3>
+                                        </div>
+                                        <div class="card__holder">
+                                            <p class="holder__text">
+                                                CARD HOLDER
+                                            </p>
+                                            <h3 class="holder__name">
+                                                Md Moshqur Alam
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <img
+                                        src="./image/decor-hero-top.svg"
+                                        class="card__decor-top"
+                                    />
+                                    <img
+                                        src="./image/decor-hero-bottom.svg"
+                                        class="card__decor-bottom"
+                                    />
+                                    <span class="phone__card-circle"></span>
+                                    <span class="phone__card-circle"></span>
+                                </div>
+
+                                <!-- list -->
+                                <div class="phone__list">
+                                    <div class="list__top">
+                                        <h3 class="list__title">
+                                            Transections
+                                        </h3>
+                                        <img
+                                            src="./icon/list.svg"
+                                            alt=""
+                                            class="list__icon"
+                                        />
+                                    </div>
+                                    <div class="list__body">
+                                        <!-- item1 -->
+                                        <div class="list__body-item">
+                                            <img
+                                                class="body__icon"
+                                                src="./icon/phone-icon.svg"
+                                                alt=""
+                                            />
+                                            <div class="body__information">
+                                                <h4
+                                                    class="body__information-title"
+                                                >
+                                                    Received Money
+                                                </h4>
+                                                <p
+                                                    class="body__information-email"
+                                                >
+                                                    email@gmail.com
+                                                </p>
+                                            </div>
+                                            <div class="body__excess">
+                                                <h4 class="body__excess-money">
+                                                    +$1,600
+                                                </h4>
+                                                <p class="body__excess-time">
+                                                    Sep 23
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- item2 -->
+                                        <div class="list__body-item">
+                                            <img
+                                                class="body__icon"
+                                                src="./icon/phone-icon2.svg"
+                                                alt=""
+                                            />
+                                            <div class="body__information">
+                                                <h4
+                                                    class="body__information-title"
+                                                >
+                                                    Send Money
+                                                </h4>
+                                                <p
+                                                    class="body__information-email"
+                                                >
+                                                    Airbnb Payment
+                                                </p>
+                                            </div>
+                                            <div class="body__excess">
+                                                <h4 class="body__excess-money">
+                                                    - $600
+                                                </h4>
+                                                <p class="body__excess-time">
+                                                    Sep 23
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- item3 -->
+                                        <div class="list__body-item">
+                                            <img
+                                                class="body__icon"
+                                                src="./icon/phone-icon3.svg"
+                                                alt=""
+                                            />
+                                            <div class="body__information">
+                                                <h4
+                                                    class="body__information-title"
+                                                >
+                                                    Received Money
+                                                </h4>
+                                                <p
+                                                    class="body__information-email"
+                                                >
+                                                    Upwork Earning
+                                                </p>
+                                            </div>
+                                            <div class="body__excess">
+                                                <h4 class="body__excess-money">
+                                                    +$1,600
+                                                </h4>
+                                                <p class="body__excess-time">
+                                                    Sep 23
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- item4 -->
+                                        <div class="list__body-item">
+                                            <img
+                                                class="body__icon"
+                                                src="./icon/phone-icon4.svg"
+                                                alt=""
+                                            />
+                                            <div class="body__information">
+                                                <h4
+                                                    class="body__information-title"
+                                                >
+                                                    Pay Bill
+                                                </h4>
+                                                <p
+                                                    class="body__information-email"
+                                                >
+                                                    Electricity Bill
+                                                </p>
+                                            </div>
+                                            <div class="body__excess">
+                                                <h4 class="body__excess-money">
+                                                    - $600
+                                                </h4>
+                                                <p class="body__excess-time">
+                                                    Sep 23
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- phone deposite -->
+                                <div class="phone__deposite">
+                                    <img
+                                        src="./icon/icon-install.svg"
+                                        alt=""
+                                        class="icon-install"
+                                    />
+                                    <h3 class="phone__deposite-text">
+                                        Deposite
+                                    </h3>
+                                    <h3 class="phone__deposite-money">
+                                        $32000
+                                    </h3>
+                                </div>
+
+                                <!-- phone interest -->
+                                <div class="phone__interest">
+                                    <h3 class="phone__interest-percent">0%</h3>
+                                    <h3 class="phone__interest-text">
+                                        Interest
+                                    </h3>
+                                </div>
+                                <!-- phone secured -->
+                                <div class="phone__secured">
+                                    <img
+                                        src="./icon/SECURED-icon.svg"
+                                        alt=""
+                                        class="phone__secured-icon"
+                                    />
+                                    <div class="phone__secured-body">
+                                        <h3 class="phone__secured-money">
+                                            $1.310
+                                        </h3>
+                                        <p class="phone__secured-text">
+                                            SECURED FUNDS
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end hero -->
+
+                <!-- works -->
+                <section class="works">
+                    <div class="row">
+                        <!-- work media -->
+                        <div class="col-6 work__media">
+                            <img
+                                src="./image/work-image.png"
+                                alt=""
+                                class="work__media-img"
+                            />
+                            <img
+                                src="./icon/work-logo.svg"
+                                alt=""
+                                class="work__media-logo"
+                            />
+                            <div class="work__media-decor">
+                                <img
+                                    src="./icon/work-check.svg"
+                                    alt=""
+                                    class="media-check"
+                                />
+                                <div class="media__body">
+                                    <h3 class="media__body-title">
+                                        Congratulations
+                                    </h3>
+                                    <p class="media__body-text">
+                                        Your account activated
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work content -->
+                        <div class="col-5 offset-1">
+                            <p class="section__sub-heading">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="section__heading">How It Works</h2>
+                            <div class="work__content-body">
+                                <div class="work__content-item">
+                                    <h3 class="work__content-title">
+                                        1. Open a High Interest Checking account
+                                    </h3>
+                                    <p class="work__content-text section__desc">
+                                        Fund your bank account with a minimum
+                                        balance of $100. Enroll in 3 minutes or
+                                        less!
+                                    </p>
+                                </div>
+                                <div class="work__content-item">
+                                    <h3 class="work__content-title">
+                                        2. 10 point-of-sale transactions each
+                                        Month that are at least $10 each.
+                                    </h3>
+                                    <p class="work__content-text section__desc">
+                                        Be sure to use your rewards checking
+                                        account as often as possible in order to
+                                        accue APYI
+                                    </p>
+                                </div>
+                                <div class="work__content-item">
+                                    <h3 class="work__content-title">
+                                        3. Receive up to 5.50% APY
+                                    </h3>
+                                    <p class="work__content-text section__desc">
+                                        The APY you earn will be based on your
+                                        account balance and satisfying the
+                                        transaction requirement.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end works -->
+
+                <!-- payments -->
+                <section class="payments">
+                    <div class="row">
+                        <!-- payments content -->
+                        <div class="col-5">
+                            <p class="section__sub-heading">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="section__heading">
+                                One Card For All Your Payments
+                            </h2>
+                            <p class="section__desc payments__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <div class="payments__list">
+                                <li class="payment__item">Global Payments</li>
+                                <li class="payment__item">
+                                    One-Click Purchase
+                                </li>
+                                <li class="payment__item">Friendly Price</li>
+                            </div>
+                            <a href="#!" class="btn paymets__btn"
+                                >Get Started</a
+                            >
+                        </div>
+                        <!-- payments media -->
+                        <div class="col-6 offset-1 payments__media">
+                            <div class="phone__card payments__card">
+                                <p class="phone__card-balance">Main Balance</p>
+                                <h3 class="phone__card-excess">$78,355.17</h3>
+                                <div class="phone__card-informaiton">
+                                    <div class="card__valid">
+                                        <p class="valid__text">VALID THUR</p>
+                                        <h3 class="valid__time">08/22</h3>
+                                    </div>
+                                    <div class="card__holder">
+                                        <p class="holder__text">CARD HOLDER</p>
+                                        <h3 class="holder__name">
+                                            Md Moshqur Alam
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img
+                                    src="./image/payments-card-toop.svg"
+                                    class="card__decor-top"
+                                />
+                                <img
+                                    src="./image/payments-card-bottom.svg"
+                                    class="card__decor-bottom"
+                                />
+                                <span class="phone__card-circle"></span>
+                                <span class="phone__card-circle"></span>
+                            </div>
+
+                            <div class="payments__media-top">
+                                <img
+                                    src="./icon/phone-icon2.svg"
+                                    alt=""
+                                    class="payments__media-icon"
+                                />
+                                <div class="payments__media-body">
+                                    <h4 class="payments__media-title">
+                                        Send Money
+                                    </h4>
+                                    <p class="payments__media-text">
+                                        Airbnb Payment
+                                    </p>
+                                </div>
+                                <div class="payments__media-excess">
+                                    <h4 class="payments__media-money">
+                                        - $600
+                                    </h4>
+                                    <p class="payments__media-time">Sep 23</p>
+                                </div>
+                            </div>
+
+                            <div class="payments__media-bottom">
+                                <img
+                                    src="./icon/payments__icon-bottom.svg"
+                                    alt=""
+                                    class="payments__media-icon"
+                                />
+                                <p class="payments__media-text">Income</p>
+                                <h4 class="payments__media-money">$1250</h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end payments -->
+
+                <!-- transfer -->
+                <section class="transfer">
+                    <div class="row transfer__inner">
+                        <!-- transfer media -->
+                        <div class="col-6 transfer__media">
+                            <img
+                                src="./image/transfer-image.png"
+                                alt=""
+                                class="transfer__media-img"
+                            />
+                            <div class="transfer__media-choose">
+                                <h4 class="choose__method">
+                                    Choose payment method
+                                </h4>
+                                <div class="choose__method-list">
+                                    <img
+                                        src="./icon/transfer-icon1.svg"
+                                        alt=""
+                                        class="choose__method-item"
+                                    />
+                                    <img
+                                        src="./icon/transfer-icon2.svg"
+                                        alt=""
+                                        class="choose__method-item"
+                                    />
+                                    <img
+                                        src="./icon/transfer-icon3.svg"
+                                        alt=""
+                                        class="choose__method-item"
+                                    />
+                                    <img
+                                        src="./icon/transfer-icon4.svg"
+                                        alt=""
+                                        class="choose__method-item"
+                                    />
+                                    <img
+                                        src="./icon/transfer-icon5.svg"
+                                        alt=""
+                                        class="choose__method-item"
+                                    />
+                                    <img
+                                        src="./icon/transfer-icon6.svg"
+                                        alt=""
+                                        class="choose__method-item"
+                                    />
+                                </div>
+                            </div>
+
+                            <img
+                                src="./icon/icon-money.png"
+                                alt=""
+                                class="choose__method-money"
+                            />
+                        </div>
+                        <!-- transfer content -->
+                        <div class="col-5 offset-1 transfer__content">
+                            <p class="section__sub-heading">
+                                Digital Smart Wallet
+                            </p>
+                            <h2 class="section__heading">
+                                Transfer and Deposite Your Money Anytime
+                            </h2>
+                            <p class="section__desc payments__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <div class="payments__list">
+                                <li class="payment__item">Powerfull App</li>
+                                <li class="payment__item">
+                                    Transparency And Speed
+                                </li>
+                                <li class="payment__item">
+                                    Multiple Use Capabilities
+                                </li>
+                            </div>
+                            <a href="#!" class="btn paymets__btn"
+                                >Get Started</a
+                            >
+                        </div>
+                    </div>
+                </section>
+                <!-- end transfer -->
+            </main>
+        </div>
+        <!-- end container -->
+    </body>
+</html>
