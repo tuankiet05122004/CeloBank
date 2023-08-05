@@ -683,3 +683,104 @@ form {
     right: -40px;
     top: 256px;
 }
+.clients {
+    margin-top: 160px;
+    text-align: center;
+}
+.clients__sub-heading {
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clients__desc {
+    max-width: 435px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.6rem;
+}
+.clients__stated {
+    padding: 42px 28px;
+    border: 1px solid #dfe2e8;
+    position: relative;
+    color: var(--gray-color);
+    text-align: center;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-bottom: 98px;
+    margin-top: 36px;
+    background-color: #fff;
+    transition: all 0.5s;
+    cursor: auto;
+}
+.clients__stated:hover {
+    filter: drop-shadow(1px 2px 5px #000000);
+    -webkit-filter: drop-shadow(1px 2px 5px #000000);
+    -moz-filter: drop-shadow(1px 2px 5px #000000);
+}
+.clients__stated:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-color: #fff;
+    border-top: 1px solid #dfe2e8;
+    border-right: 1px solid #dfe2e8;
+    transform: rotate(135deg) translateX(50%);
+    left: 50%;
+    bottom: -10px;
+}
+.clients__avatar {
+    width: 104px;
+    height: 104px;
+    background-color: #44a7d1;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clients .col-6:nth-child(2) .clients__avatar {
+    background-color: #3e9385;
+}
+.clients__avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 50px;
+    transform: scale(1.5);
+}
+.clients__name {
+    color: var(--heading-color);
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    margin-top: 20px;
+}
+.clients__office {
+    color: var(--gray-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67;
+    margin-top: 2px;
+}
+.clients__list {
+    margin-top: 38px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.clients__item {
+    width: 20px;
+    height: 6px;
+    border: 1px solid var(--gray-color);
+}
+.clients___active {
+    background-color: var(--primary-color);
+    border: none;
+}
