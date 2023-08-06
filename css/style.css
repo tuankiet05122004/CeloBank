@@ -784,3 +784,66 @@ form {
     background-color: var(--primary-color);
     border: none;
 }
+.update {
+    margin-top: 130px;
+}
+.update__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.update__desc {
+    font-size: 1.6rem;
+    max-width: 435px;
+    margin-top: 18px;
+}
+.update .btn {
+    min-width: 123px;
+    background-color: var(--heading-color);
+}
+.update__list {
+    margin-top: 70px;
+    row-gap: 30px;
+}
+.update__item {
+    padding: 28px;
+    padding-left: 28px;
+    border-radius: 12px;
+    border: 1px solid #dfe2e8;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.update__item:hover {
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+    outline: none;
+}
+.update__image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.update__body {
+    margin-left: 22px;
+}
+.update__body-time {
+    color: var(--gray-color);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+}
+.update__body-desc {
+    color: var(--heading-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+    margin-top: 10px;
+}
+.update__body-blog {
+    color: var(--gray-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.71;
+    margin-top: 20px;
+}
